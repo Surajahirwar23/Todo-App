@@ -4,11 +4,11 @@ displayTodo();
 
 function addTodo(){
     const inputElement = document.getElementById("inputTag");
-    let inputText = inputElement.value;
-    if(inputText.length>0){
-       
-        todoList.push(inputText);
-        inputElement.value ="";
+   
+    if(!inputElement.value===""){
+         inputElement.value = "";
+        todoList.push(inputElement.value);
+      
         displayTodo()
     };
     
