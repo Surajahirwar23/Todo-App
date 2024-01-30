@@ -5,9 +5,9 @@ displayTodo();
 function addTodo(){
     const inputElement = document.getElementById("inputTag");
    
-    if(!inputElement.value===""){
-         inputElement.value = "";
+    if(!inputElement.value==""){
         todoList.push(inputElement.value);
+          inputElement.value ="";
       
         displayTodo()
     };
