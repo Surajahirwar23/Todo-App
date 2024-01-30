@@ -8,7 +8,7 @@ function addTodo(){
     if(inputText.length>0){
        
         todoList.push(inputText);
-        inputElement.value =" ";
+        inputElement.value ="";
         displayTodo()
     };
     
